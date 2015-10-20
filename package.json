@@ -14,8 +14,8 @@
     "test": "node test.js && jshint src"
   },
   "browser": {
-    "canvas": "./lib/no-lib",
-    "jsdom": "./lib/no-lib"
+    "canvas": "./no-lib.js",
+    "jsdom": "./no-lib.js"
   },
   "dependencies": {
     "xmldom": "0.1.x"
