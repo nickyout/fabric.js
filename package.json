@@ -13,9 +13,11 @@
     "build": "node build.js modules=ALL exclude=json,cufon,gestures",
     "test": "node test.js && jshint src"
   },
+  "browser": {
+    "canvas": "./lib/no-lib",
+    "jsdom": "./lib/no-lib"
+  },
   "dependencies": {
-    "canvas": "1.0.x",
-    "jsdom": "0.7.x",
     "xmldom": "0.1.x"
   },
   "devDependencies": {
